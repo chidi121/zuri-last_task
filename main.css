@@ -1,0 +1,181 @@
+@font-face {
+    font-family: Averta;
+    src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Averta, sans-serif;
+}
+
+body {
+    padding: 0 20px;
+    height: 800px;
+    background-image: url("image/bg-sec.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/*HERO SECTION*/
+
+a {
+    color: #E7332B;
+    text-decoration: none;
+}
+
+.hero {
+    margin-top: 100px;
+}
+
+.display-7 {
+    font-size: 2.0rem;
+    line-height: 2.0em;
+    font-weight: 800;
+    color: #514949;
+    margin-bottom: 35px;
+    margin-top: 60px;
+}
+
+.btn {
+    margin-top: 50px;
+    padding: 11px 28px;
+    border: 1px solid #E7332B;
+}
+
+.btn-primary {
+    background-color: #E7332B;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: #E7332B;
+    border: 2px solid #E7332B
+}
+
+.btn-outline-red {
+    background-color: white;
+    color: #E7332B;
+    border: 2px solid #E7332B
+}
+
+.btn-outline-red:hover {
+    background-color: #E7332B;
+    color: white;
+}
+
+/*WHAT WE DO*/
+.What-we-do {
+    margin-top: -600px;
+    z-index: -1;
+}
+
+.text, h3 {
+    color:#E7332B;
+    font-size: 1rem;
+}
+
+.slang {
+    color: #514949;
+    font-size: 1.5rem;
+}
+
+.bg-img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 600px;
+    z-index: -1;
+}
+
+.card-effect {
+    background-color: #FFFAFA;
+    padding: 40px 30px;
+    transition: all 0.35s;
+    margin-top: 50px;
+}
+
+.training-text {
+    padding-top: 50px;
+    color: #514949;
+}
+
+.training{
+    padding-top: 30px;
+}
+
+.footer-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 250px 0;
+}
+
+.footer-col, h4 {
+    color:#514949;
+    font-size: 1rem;
+
+}
+
+hr {
+    position: relative;
+    bottom: 100px;
+    border: 0.5px solid #514949;
+    top: - 100px;
+}
+
+.copyright {
+    position: relative;
+    text-align: center;
+    bottom: 85px;
+    font-weight: 600;
+    color: #514949;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .footer-flex-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -50px;
+    }
+
+    .contact-address {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .links {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .social-handle {
+        padding-top: 35px;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .bg-img {
+        display: none;
+    }
+    
+    .What-we-do {
+        margin-top: 300px;
+    }
+
+    hr {
+        top: -200px;
+    }
+
+    .copyright {
+        margin-top: -100px;
+    }
+}
+
+
